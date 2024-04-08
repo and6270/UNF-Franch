@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="09733817-8d09-4565-9d54-80ee16096421">
+  <name>ff</name>
+  <synonym>
+    <key>ru</key>
+    <value>ФФ</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <commandInterface>Extended</commandInterface>
+    <mainSectionCommandInterface>Extended</mainSectionCommandInterface>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="facdc862-06ab-4709-a0f7-dfd6f6ec805a"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="c52da355-7c18-40c1-9c72-d1c17338202c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d59e1437-ec2e-4175-815d-28c34cb5f163"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="af5ab734-94df-4aae-8062-a2a46e70c84c"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="33224ce9-f79c-4ab1-91a2-50bfb0795a6f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d23c1d6b-a228-49f4-b450-45ef06eaafad"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c0a8f4bc-6c10-4ca5-af75-cacade40c905"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>ФФ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ФФ_ОсновнаяРоль</defaultRoles>
+  <vendor>and6270@gmail.com</vendor>
+  <version>2024.04.08</version>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
+  <languages uuid="a70d327f-6394-4c59-8d73-8b6c2921085d">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ФФ_ФФ</subsystems>
+  <styleItems>StyleItem.КрасныйТекстСтрок</styleItems>
+  <commonPictures>CommonPicture.КнопкаВыпадающегоСписка</commonPictures>
+  <commonPictures>CommonPicture.Органайзер</commonPictures>
+  <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.ФФ_ФФ</commonPictures>
+  <roles>Role.ФФ_ОсновнаяРоль</roles>
+  <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
+  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
+  <commonCommands>CommonCommand.Напомнить</commonCommands>
+  <commonCommands>CommonCommand.ОтправитьПоSMS</commonCommands>
+  <commonCommands>CommonCommand.ОтправитьПоЭлектроннойПочте</commonCommands>
+  <commonCommands>CommonCommand.СоздатьЗадачуСотрудника</commonCommands>
+  <commandGroups>CommandGroup.Органайзер</commandGroups>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.КатегорииДоговоров</catalogs>
+  <catalogs>Catalog.ФФ_ПакетыЧасов</catalogs>
+  <catalogs>Catalog.ФФ_ПричиныОтвала</catalogs>
+  <catalogs>Catalog.ФФ_Тарифы</catalogs>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.РасходнаяНакладная</documents>
+  <documents>Document.УчетВремени</documents>
+  <enums>Enum.ВидыДоговоров</enums>
+  <enums>Enum.СпособыЗачетаИРаспределенияПлатежей</enums>
+  <enums>Enum.ФФ_ВидыОплатДоговоров</enums>
+</mdclass:Configuration>

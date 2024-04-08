@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20e35d30-d083-418d-a5c4-ad68224e0fd2">
+  <producedTypes>
+    <refType typeId="b2ca800b-ba65-4416-b1bf-29f5d038ed51" valueTypeId="5baf7c80-5dcb-436f-b0c4-3213863371c6"/>
+    <listType typeId="8f0b6058-494b-46b9-80e3-b2edf49a2612" valueTypeId="e6a6145a-75a4-41e1-ba79-9042a9c3b4d7"/>
+    <managerType typeId="5db63572-44f1-44c3-a36b-9c3a8d152e10" valueTypeId="14df737b-f489-4e8e-826d-283fa9edffed"/>
+  </producedTypes>
+  <name>ФФ_ВидыОплатДоговоров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды оплат договоров</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e413833f-bbee-4956-ac8c-b4c0eca5aa41">
+    <name>Сразу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сразу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4cf0bd8-06af-4c58-b73b-48777dc9ed73">
+    <name>Помесячно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помесячно</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

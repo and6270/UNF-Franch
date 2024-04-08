@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1e33d0f1-0414-4a7c-948e-deb4dd9ba118" extendedConfigurationObject="e557f2c9-6893-4523-9b13-07e678b2778a">
+  <producedTypes>
+    <objectType typeId="b4b8bf7b-d34a-4288-a6a8-c71ef8c87925" valueTypeId="0f0c0a3e-34f9-41aa-a2ef-ff55a89304e7"/>
+    <refType typeId="19984162-30ea-4a35-99a5-aba8d3fbfe53" valueTypeId="8618a948-2730-4295-bf5e-f99b1b4a6b96"/>
+    <selectionType typeId="24947b47-53dc-4982-a486-fbf013b2ce4a" valueTypeId="cfa6846e-7dba-45d5-aafe-13599e4cddd0"/>
+    <listType typeId="8e515293-9021-4f34-aeff-30da85301603" valueTypeId="a726299b-db69-46b3-a3f0-516ed2bc8275"/>
+    <managerType typeId="db3d6f7f-4a9e-4aac-9b7f-0a249592ca1e" valueTypeId="3fedf55b-8e4b-443f-a338-69f1259ad1a4"/>
+  </producedTypes>
+  <name>РасходнаяНакладная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Document>

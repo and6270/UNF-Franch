@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="24408526-5cb5-40c2-aa00-dd468d3d84cf" extendedConfigurationObject="86ff38ce-f2f8-4870-b87a-1504c59d0499">
+  <producedTypes>
+    <objectType typeId="6a66d034-1d22-4b88-96bb-9ff23ff7aef4" valueTypeId="80bd3ef2-a08c-4493-ab47-916c50c03b18"/>
+    <refType typeId="2d5cd4da-f691-42bc-b085-d7f090e7b47b" valueTypeId="1875d0ba-bd3e-490e-8a83-947b0cab53a6"/>
+    <selectionType typeId="ea8c326a-1857-403c-ab99-eecc19036ce4" valueTypeId="5e4a1596-cc10-4b3f-b1c3-040e3c5a6ac0"/>
+    <listType typeId="40ee1b95-0ce9-4a37-a609-5af48712f171" valueTypeId="fcf55fbe-52c2-416d-9677-e9df36c5a474"/>
+    <managerType typeId="d8123272-b01c-40c2-b715-2a503d945bb5" valueTypeId="967c9436-e32b-4ea7-807c-9f939827be69"/>
+  </producedTypes>
+  <name>УчетВремени</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:Document>

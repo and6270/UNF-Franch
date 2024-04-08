@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9c6771d-bc09-46ad-a4a0-6bca117229c8">
+  <name>ФФ_ФФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ФФ</value>
+  </synonym>
+  <comment>Фирма франчайзи</comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ФФ_ФФ</picture>
+  </picture>
+  <subsystems>ФФ_Документы</subsystems>
+  <subsystems>ФФ_Отчеты</subsystems>
+  <subsystems>ФФ_РегистрыСведений</subsystems>
+  <subsystems>ФФ_Сервис</subsystems>
+  <subsystems>ФФ_Справочники</subsystems>
+</mdclass:Subsystem>

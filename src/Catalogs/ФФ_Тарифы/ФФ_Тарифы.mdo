@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0614bae6-8a29-4eaf-9cf3-dd4c64d6047c">
+  <producedTypes>
+    <objectType typeId="bf319846-9f77-4d0e-a956-899a3d0588f4" valueTypeId="ef219a31-ca9d-4172-a396-e02a165339e4"/>
+    <refType typeId="107c06bf-2958-40a7-bfdb-f17b057166a9" valueTypeId="d137d13a-4923-44e9-af8e-2ae265b6e7e7"/>
+    <selectionType typeId="2f0709ab-f593-4554-be9b-0a5e4253a7d3" valueTypeId="a9205f99-2d2b-4c41-8ae9-816fde781cfd"/>
+    <listType typeId="aec174d7-e23a-442c-a60c-04495e07296f" valueTypeId="4a9c1041-bfd7-48fd-bfc9-53bb51412133"/>
+    <managerType typeId="49a349f5-5929-4164-a645-1c44a68cfc93" valueTypeId="3cffe570-b374-4fa3-b1de-b9bfc1f79553"/>
+  </producedTypes>
+  <name>ФФ_Тарифы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФФ_Тарифы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ФФ_Тарифы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="9b257c96-bc4f-4070-919c-4b064a0b0227">
+    <name>Недействующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействующий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d042cb7e-1921-4136-8709-0e6c1a79600d">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииДоговоров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="435f6ca0-68c8-4fa0-99f3-66cc5499770d">
+    <name>Платный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платный</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="adf457b0-8a90-424c-88e4-64125188f860">
+    <name>ВидОплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оплаты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ФФ_ВидыОплатДоговоров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

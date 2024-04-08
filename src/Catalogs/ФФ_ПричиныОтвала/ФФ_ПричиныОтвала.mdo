@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be846f96-c0f9-4416-ab4f-791f6c8c0b6c">
+  <producedTypes>
+    <objectType typeId="8684231c-10e0-4705-a5a1-d9390f60da55" valueTypeId="314a7384-765b-4b2e-ad52-291c42a45f1f"/>
+    <refType typeId="a13b02b2-3c82-4f16-8010-513bc53e80c0" valueTypeId="4054d058-ea6e-4bbb-aad0-0f499efdb093"/>
+    <selectionType typeId="61425adc-050a-48b2-bafb-e83cd1b0ac42" valueTypeId="7b211f91-541c-4955-9498-f964639c12f5"/>
+    <listType typeId="02f077c8-d42a-496a-bdb8-0e4b263e2678" valueTypeId="f554e943-e927-4d6f-a0d3-e91cb0209d23"/>
+    <managerType typeId="3089853c-56f6-43ee-8f63-d4b54ee7629e" valueTypeId="dc894405-2191-4903-899c-807b1eedb15f"/>
+  </producedTypes>
+  <name>ФФ_ПричиныОтвала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины отвала</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФФ_ПричиныОтвала.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ФФ_ПричиныОтвала.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

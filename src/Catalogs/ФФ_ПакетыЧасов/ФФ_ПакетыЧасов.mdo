@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="14b3eecc-5950-4bf9-afcd-358b1c60ca2e">
+  <producedTypes>
+    <objectType typeId="25208ed0-3b43-4b05-99df-ea6d63f18c1f" valueTypeId="1ed4fc2a-3048-4f35-87e2-37c21e56aa6e"/>
+    <refType typeId="2ca9ce80-6fb4-40dc-85a7-110fb1c4a16d" valueTypeId="8473d9b9-52bc-430f-a25c-848086f6993c"/>
+    <selectionType typeId="926e762d-6b81-4618-b53b-53d5114edf44" valueTypeId="37145f27-4aac-4e61-a23e-1c8919fd382c"/>
+    <listType typeId="65ef25a1-048e-4fb6-b34e-099200311d6c" valueTypeId="d9ea2225-0479-4842-8e3c-b613de27acfc"/>
+    <managerType typeId="e451d52c-1b7a-4d83-b506-f2e4ca7ccee8" valueTypeId="a4b9d6ab-005f-4fc7-8e4b-2e570e10f187"/>
+  </producedTypes>
+  <name>ФФ_ПакетыЧасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пакеты часов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФФ_ПакетыЧасов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="be3cb0e5-47f3-4766-9adb-241b3c9f56a6">
+    <name>КоличествоЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

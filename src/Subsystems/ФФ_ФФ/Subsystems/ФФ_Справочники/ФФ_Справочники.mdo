@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="060b1a06-c2ba-4c16-bd24-648f7125d146">
+  <name>ФФ_Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.КатегорииДоговоров</content>
+  <content>Catalog.ФФ_Тарифы</content>
+  <parentSubsystem>Subsystem.ФФ_ФФ</parentSubsystem>
+</mdclass:Subsystem>
